@@ -1,1 +1,1 @@
-load_script动态加载js，通过script回调完成jsonp跨域请求。
+﻿load_script动态加载js，通过javascript回调完成jsonp跨域请求。
