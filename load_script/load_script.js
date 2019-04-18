@@ -5,14 +5,14 @@ function loadScript(url, callback){//∞¥–Ëº”‘ÿjs
       script.onreadystatechange = function(){
       if (script.readyState == "loaded" || script.readyState == "complete"){
         script.onreadystatechange = null;
-        callback();
+        callback()
       }
     };
     } else { //Others
     script.onload = function(){
-        callback();
+        callback()
     };
     }
     script.src = url;
-    document.getElementsByTagName("head")[0].appendChild(script);
+    document.getElementsByTagName("head")[0].appendChild(script)
 }
