@@ -1,4 +1,4 @@
-function loadScript(url, callback){
+function loadScript(url, callback){//∞¥–Ëº”‘ÿjs
     var script = document.createElement ("script")
     script.type = "text/javascript";
     if (script.readyState){ //IE
